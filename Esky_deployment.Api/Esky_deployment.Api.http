@@ -1,0 +1,6 @@
+@Esky_deployment.Api_HostAddress = http://localhost:5072
+
+GET {{Esky_deployment.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
