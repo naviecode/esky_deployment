@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Esky_deployment.Domain\Esky_deployment.Domain.csproj" />
+    <ProjectReference Include="..\Esky_deployment.Application\Esky_deployment.Application.csproj" />
   </ItemGroup>
 
 

@@ -14,5 +14,9 @@ namespace Esky_deployment.Infrastructure.Data
         public DbSet<Station> Stations { get; set; }
         public DbSet<SimPackages> SimPackages { get; set; }
         public DbSet<Sims> Sims {get;set;}
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+        }
     }
 }
